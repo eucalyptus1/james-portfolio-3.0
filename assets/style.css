@@ -11,14 +11,56 @@ body {
 header {
     background-color: rgb(57, 47, 199);
     color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 35px;
 }
 
 header h1 {
     margin: 0;
-    font-size: 40px;
+    font-size: 30px;
+}
+
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    color: antiquewhite;
+    padding: 10px 15px;
+    text-decoration: none;
 }
 
 footer {
     background-color: rgb(57, 47, 199);
     color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 35px;
+}
+
+footer h2 {
+    margin: 0;
+    font-size: 30px;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+footer ul li a {
+    padding: 10px 15px;
+    color: antiquewhite;
+    text-decoration: none;
 }
