@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -35,6 +36,50 @@ header nav ul li a {
     color: antiquewhite;
     padding: 10px 15px;
     text-decoration: none;
+}
+
+.about-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-section h2 {
+    font-size: 30px;
+    border-bottom: 2px solid  rgb(57, 47, 199);
+    /* width: 100%; */
+    margin: 80px 35px;
+}
+
+.project-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-section h2 {
+    font-size: 30px;
+    border-bottom: 2px solid  rgb(57, 47, 199);
+    /* margin: 60px 15px; */
+    margin: 50px 15px;
+}
+
+.featured-project {
+    width: 450px;
+    height: 295px;
+    overflow: hidden;
+    margin-top: 300px;
+    /* position: relative; */
+}
+
+.featured-project img {
+    width: 100%;
+    height: 100%;
+}
+
+.project {
+
 }
 
 footer {
