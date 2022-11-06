@@ -6,6 +6,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(57, 47, 199);
     background-color: azure;
 }
 
@@ -40,9 +41,11 @@ header nav ul li a {
 
 .section-title {
     width: 100%;
+    color: black;
 }
 
 .about-section {
+    color: black;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -58,11 +61,12 @@ header nav ul li a {
     margin: 50px 15px;
 }
 
-.about-section img {
-    /* margin: 90px -155px; */
+.avatar img{
     display: flex;
     flex-wrap: wrap;
-
+    width: 185px;
+    height: 200px;
+    border-radius: 10px;
 }
 
 .about-section p {
@@ -124,7 +128,13 @@ header nav ul li a {
     border-width: 4px;
     border-radius: 10px;
     overflow: hidden;
+}
 
+.project h3 {
+    color:antiquewhite;
+    background-color: rgb(57, 47, 199);
+    position: absolute;
+    border-radius: 4px;
 }
 
 .project img {
@@ -159,4 +169,10 @@ footer ul li a {
     padding: 10px 15px;
     color: antiquewhite;
     text-decoration: none;
+}
+
+@media screen and (max-width: 390px) {
+    .featured-project {
+        margin: 15px 30px;
+    }
 }
