@@ -10,4 +10,4 @@ The purpose of this challenge was to show our proficiency with HTML and CSS.
 https://eucalyptus1.github.io/james-portfolio-3.0/
 
 
-![screenshot](./assets/screenshot.png)
+![screenshot](./assets/images/screenshot.png)

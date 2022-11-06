@@ -205,4 +205,20 @@ footer ul li a {
     }
 }
 
+@media screen and (max-width: 768px) {
+    .featured-project {
+        margin: 15px 160px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .small-projects {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 40px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+
 /*end media queries*/
