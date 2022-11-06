@@ -79,14 +79,6 @@ header nav ul li a {
     align-items: center;
 }
 
-.small-projects {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 50px;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .project-section h2 {
     font-size: 30px;
     border-bottom: 2px solid  rgb(57, 47, 199);
@@ -98,7 +90,17 @@ header nav ul li a {
     width: 450px;
     height: 295px;
     margin: 15px 290px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
     overflow: hidden;
+}
+
+.featured-project h3 {
+    color:antiquewhite;
+    background-color: rgb(57, 47, 199);
+    position: absolute;
+    border-radius: 4px;
 }
 
 .featured-project img {
@@ -106,10 +108,30 @@ header nav ul li a {
     height: 100%;
 }
 
+.small-projects {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .project {
+    height: 190px;
+    width: 185px;
     margin: 10px 20px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+    overflow: hidden;
 
 }
+
+.project img {
+    width: 100%;
+    height: 100%;
+}
+
 
 footer {
     background-color: rgb(57, 47, 199);
