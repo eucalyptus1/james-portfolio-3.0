@@ -10,6 +10,13 @@ body {
     background-color: azure;
 }
 
+.section-title {
+    width: 100%;
+    color: black;
+}
+
+/*Header/Nav styling*/
+
 header {
     background-color: rgb(57, 47, 199);
     color: antiquewhite;
@@ -39,10 +46,10 @@ header nav ul li a {
     text-decoration: none;
 }
 
-.section-title {
-    width: 100%;
-    color: black;
-}
+/*End header styling*/
+
+
+/*About section styling*/
 
 .about-section {
     color: black;
@@ -75,6 +82,11 @@ header nav ul li a {
     margin: 50px 50px;
 }
 
+/*End about section styling*/
+
+
+/*Project section styling*/
+
 .project-section {
     display: flex;
     flex-wrap: wrap;
@@ -89,6 +101,8 @@ header nav ul li a {
     width: fit-content;
     margin: 25px 15px;
 }
+
+/*Featured project styling*/
 
 .featured-project {
     width: 450px;
@@ -111,6 +125,11 @@ header nav ul li a {
     width: 100%;
     height: 100%;
 }
+
+/*End featured project styling*/
+
+
+/*small project styling*/
 
 .small-projects {
     display: flex;
@@ -142,6 +161,10 @@ header nav ul li a {
     height: 100%;
 }
 
+/*End small project styling and entire project section*/
+
+
+/*footer styling*/
 
 footer {
     background-color: rgb(57, 47, 199);
@@ -171,8 +194,15 @@ footer ul li a {
     text-decoration: none;
 }
 
+/*end footer styling*/
+
+
+/*Media Queries*/
+
 @media screen and (max-width: 390px) {
     .featured-project {
         margin: 15px 30px;
     }
 }
+
+/*end media queries*/
